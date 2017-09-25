@@ -16,16 +16,53 @@ using namespace std;
 int main() {
 
 	//Cos de la practica
+
+	//Vector
+
 	vector <int> vector1({ 1,2,3,4 });
-	// vector<int>::iterator it_vector_1;
+
+	cout << "Vector \n";
 
 	for (vector<int>::iterator it_vector_1 = vector1.begin(); it_vector_1 != vector1.end(); it_vector_1++) {
 		cout << *it_vector_1 ;
 	}
 
+	cout << "\n";
+
 	for (vector<int>::reverse_iterator it_vector_2 = vector1.rbegin(); it_vector_2 != vector1.rend(); it_vector_2++) {
 		cout << *it_vector_2;
 	}
 
+	cout << "\n";
+
+	//Deque
+
+	deque <int> vector2({ 1,2,3,4 });
+
+	cout << "Deque \n";
+
+	//List
+
+	list <int> vector3 ({ 1,2,3,4 });
+
+	cout << "List \n";
+
+	//Forward List
+
+	forward_list <int> vector4({ 1,2,3,4 });
+
+	cout << "Forward List \n";
+
+	//Map
+
+	// map <> vector5
+
+		cout << "Map \n";
+
+	//Set
+
+		set <int> vector6;
+
+		cout << "Set \n";
 
 }
