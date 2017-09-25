@@ -4,6 +4,11 @@
 #include <iostream>
 #include <stdio.h>
 #include <vector>
+#include <deque>
+#include <list>
+#include <forward_list>
+#include <map>
+#include <set>
 
 using namespace std;
 
@@ -21,4 +26,6 @@ int main() {
 	for (vector<int>::reverse_iterator it_vector_2 = vector1.rbegin(); it_vector_2 != vector1.rend(); it_vector_2++) {
 		cout << *it_vector_2;
 	}
+
+
 }
