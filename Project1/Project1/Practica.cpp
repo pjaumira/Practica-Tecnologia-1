@@ -41,6 +41,10 @@ int main() {
 
 	cout << "Deque \n";
 
+	for (deque<int>::iterator it_vector_2 = vector2.begin(); it_vector_2 != vector2.end(); it_vector_2++) {
+		cout << *it_vector_2;
+	}
+
 	//List
 
 	list <int> vector3 ({ 1,2,3,4 });
@@ -55,7 +59,13 @@ int main() {
 
 	//Map
 
-	// map <> vector5
+	map <int, float> vector5;
+
+	vector5.insert( map <int, float>::value_type(1,1.1));
+	vector5.insert(map <int, float>::value_type(2, 2.2));
+	vector5.insert(map <int, float>::value_type(3, 3.3));
+	vector5.insert(map <int, float>::value_type(4, 4.4));
+
 
 		cout << "Map \n";
 
