@@ -1,0 +1,5 @@
+﻿  0 File(s) copied
+  HelloSDL.cpp
+c:\users\pjaumira\source\repos\solution1\src\hellosdl\hellosdl.cpp(49): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+  HelloSDL.vcxproj -> C:\Users\pjaumira\source\repos\Solution1\\bin\Win32Debug\HelloSDL.exe
+  HelloSDL.vcxproj -> C:\Users\pjaumira\source\repos\Solution1\\bin\Win32Debug\HelloSDL.pdb (Partial PDB)
